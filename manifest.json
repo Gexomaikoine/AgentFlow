@@ -1,0 +1,9 @@
+{
+  "version": "0.1.1",
+  "app_zip": {
+    "name": "app-0.1.1.zip",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/Gexomaikoine/AgentFlow/main/app-0.1.1.zip",
+    "sha256": "3f8c2038ba146ede47f95fb927959de1d1ac4bea4c41e2daacfb3c97f2e2d502"
+  },
+  "requires_runtime": "3.13.5-ce567cfe"
+}
