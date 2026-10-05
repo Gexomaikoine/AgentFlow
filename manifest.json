@@ -1,13 +1,23 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "app_zip": {
-    "name": "app-0.1.3.zip",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/Gexomaikoine/AgentFlow/main/app-0.1.3.zip",
-    "sha256": "974e1f6eb46905c567b950ccc82412666286c8ca161014fff4cb2cc98930567e"
+    "name": "app-0.1.4.zip",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/Gexomaikoine/AgentFlow/main/app-0.1.4.zip",
+    "sha256": "f33eac1b9c9c94acdd47741d6ae1c21478726837299fa85dbf0e1197428e587a"
   },
   "requires_runtime": "3.13.5-ce567cfe",
-  "commit": "c1e7c17",
+  "commit": "a40f181",
   "notes": [
+    {
+      "hash": "a40f181",
+      "date": "2026-10-05",
+      "text": "鍙戠増 0.1.4锛氱増鏈�鍙峰悓姝ュ崌浣嶏紙鍚� D-108 楠岃瘉鍋囧け璐ヤ慨澶嶏級"
+    },
+    {
+      "hash": "05fcb0d",
+      "date": "2026-10-05",
+      "text": "淇�澶� ops 楠岃瘉鍋囧け璐ヤ笌鐢熸垚娴佹偓姝伙紙D-108锛夛細powershell -Command 鍖呰９鎷嗗寘鎵ц�� + 缁堟�佸畧鍗�鏀惧��"
+    },
     {
       "hash": "c1e7c17",
       "date": "2026-10-02",
@@ -137,6 +147,81 @@
       "hash": "915c6d3",
       "date": "2026-10-01",
       "text": "绌轰粨搴撴帴鍏ュ嵆鑷�鎰� + 鎺ュ叆鍚戝�肩洰褰曢�夋嫨 + 寮圭獥閬�缃╄��鍏抽棴锛圖-100锛�"
+    },
+    {
+      "hash": "99f537f",
+      "date": "2026-10-01",
+      "text": "鍙戠増 0.1.2锛氱増鏈�鍙峰悓姝ュ崌浣嶏紙浜х墿宸插彂甯冨埌鐙�绔嬩骇鐗╀粨搴擄級"
+    },
+    {
+      "hash": "b199d7a",
+      "date": "2026-10-01",
+      "text": "Merge pull request #3 from Gexomaikoine/et-fix"
+    },
+    {
+      "hash": "ecd6d26",
+      "date": "2026-10-01",
+      "text": "淇�澶嶏細config.toml 鍐欏叆涓茶〃锛屽�艰嚧閰嶇疆闈欓粯澶辨晥锛堜繚瀛樹袱娆″繀鍧忥級"
+    },
+    {
+      "hash": "e9e6860",
+      "date": "2026-10-01",
+      "text": "Merge pull request #2 from Gexomaikoine/et-fix"
+    },
+    {
+      "hash": "cd2a9a4",
+      "date": "2026-10-01",
+      "text": "淇�澶嶏細棣栨�￠厤缃�鍚戝��/妯″瀷椤甸厤浜嗙湡 Key 浠嶈蛋 MockLLM锛坧rovider 鏈�鍒囨崲锛�"
+    },
+    {
+      "hash": "0569f4b",
+      "date": "2026-10-01",
+      "text": "Merge pull request #1 from Gexomaikoine/et-fix"
+    },
+    {
+      "hash": "9317914",
+      "date": "2026-10-01",
+      "text": "淇�澶嶏細浠绘剰娴忚�堝櫒璁块棶鎺у埗鍙伴兘鑳借嚜鍔ㄨ繛鎺ユ墽琛岄潰锛堢��浜屼釜娴忚�堝櫒涓嶅啀鎷夸笉鍒� token锛�"
+    },
+    {
+      "hash": "4223aeb",
+      "date": "2026-09-30",
+      "text": "鍑�鍖栧櫒琛ュ叏锛氫骇鍝佸悕琛ㄦ墿鍏� + 鍏滃簳瑙勫垯鍔犳爣璇嗙�﹁竟鐣� + 3 渚嬪洖褰掓祴璇�"
+    },
+    {
+      "hash": "9f6d985",
+      "date": "2026-09-30",
+      "text": "浜х墿鍑�鍖栬ˉ涓ゅ�勶細docstring 涓� launcher 鐨勬帾杈烇紙澶栭儴浜у搧鍚� / 鍐呴儴璺�寰勶級"
+    },
+    {
+      "hash": "46ef579",
+      "date": "2026-09-30",
+      "text": "浜х墿浠撴敼鍚嶅悓姝ワ細榛樿�ゆ洿鏂版簮涓庢枃妗ｄ粠 agentflow-release 鏀逛负 AgentFlow"
+    },
+    {
+      "hash": "e4abf4c",
+      "date": "2026-09-30",
+      "text": "鍗囩増鏈� 0.1.1锛氫骇鐗╀粨鍘嗗彶閲嶇疆鍚庣殑棣栧彂锛堝噣鍖栫増锛�"
+    },
+    {
+      "hash": "6697846",
+      "date": "2026-09-30",
+      "text": "瀹夎�呭寘鎺ㄥ叆浜х墿浠撳簱 + 鍙戝竷娓呭崟鍔� requires_runtime锛圖-99 琛ヨ�帮級"
+    },
+    {
+      "hash": "91847a3",
+      "date": "2026-09-30",
+      "text": "浜х墿鏀硅蛋鐙�绔� public 浠撳簱锛氭柊澧� --publish repo 閫氶亾锛圖-99锛�"
+    },
+    {
+      "hash": "a25abe0",
+      "date": "2026-09-30",
+      "text": "鍙戝竷閾捐矾琛ュ叏锛氫骇鐗╁噣鍖� + 绉佹湁婧愪护鐗� + 鐑�鏇存渶鍚庝竴璺抽棴鐜�锛圖-97/D-98锛�"
+    },
+    {
+      "hash": "cbaf314",
+      "date": "2026-09-30",
+      "text": "鏂囨。锛氳ˉ涓ゅ�勫畨瑁�/鏇存柊瀹炴搷鍧戯紝骞舵妸\"鐑�鏇存渶鍚庝竴璺�\"鐨勫疄娴嬪彛寰勬敼鍑嗭紙D-96 琛ヨ�帮級"
     }
   ]
 }
