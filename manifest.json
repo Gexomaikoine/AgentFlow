@@ -1,27 +1,72 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "app_zip": {
-    "name": "app-0.1.5.zip",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/Gexomaikoine/AgentFlow/main/app-0.1.5.zip",
-    "sha256": "1c598cf870bbce1a0c439c1d1aac1c276c765535538ab0dade4b37b475758456"
+    "name": "app-0.1.6.zip",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/Gexomaikoine/AgentFlow/main/app-0.1.6.zip",
+    "sha256": "224bcec44c6d1e5a23d148f3a6063ca1ece75282278cbfceb9ca9b6a16641d1e"
   },
   "requires_runtime": "3.13.5-ce567cfe",
-  "commit": "002d515",
+  "commit": "6a87f09",
   "notes": [
     {
-      "hash": "002d515",
-      "date": "2026-10-05",
-      "text": "发版 0.1.5：版本号同步升位（含 D-107 执行回归修复 + 单一模式开发 system 去\"简单小改\"）"
+      "hash": "6a87f09",
+      "date": "2026-10-08",
+      "text": "发版开关收口：安装包默认编译、去掉\"跳过重建\"、新增 --build-installer"
     },
     {
-      "hash": "3c52c6c",
-      "date": "2026-10-05",
-      "text": "单一模式开发 system 去\"简单小改\"前提（A）：按 complexity/写集分档 + 补 developer 纪律"
+      "hash": "8955bd3",
+      "date": "2026-10-08",
+      "text": "安装包改为按需编译：只在 --with-installer 时编译"
     },
     {
-      "hash": "0bac3a6",
-      "date": "2026-10-05",
-      "text": "修复 D-107 两条执行回归（kk_dash task_1/3 实证）：花括号分组误判 ASK + .ps1 整条 PS 路由"
+      "hash": "bc7eac6",
+      "date": "2026-10-08",
+      "text": "修复 CI 发版卡在安装包：.iss 版本号不再硬编码（改由 release.py 传 /DAppVersion）"
+    },
+    {
+      "hash": "637e60c",
+      "date": "2026-10-08",
+      "text": "发版提速：缓存内嵌运行时（key=runtime_id），命中即自动 --skip-runtime"
+    },
+    {
+      "hash": "0d73d8e",
+      "date": "2026-10-07",
+      "text": "修复发版在 CI 崩：release.py 标准输出强制 UTF-8（en-US runner 是 cp1252）"
+    },
+    {
+      "hash": "7e8788a",
+      "date": "2026-10-07",
+      "text": "发版流程按业界做法收口：推 tag 自动发版 + tag/version 一致性校验"
+    },
+    {
+      "hash": "43e8688",
+      "date": "2026-10-07",
+      "text": "发版 0.1.6：版本号同步升位（含 D-109 截图输入 + D-110 串行黑洞三处 + D-111 更新过程可见 + 自动审批事件卡 + CI 常红修复）"
+    },
+    {
+      "hash": "9ddce30",
+      "date": "2026-10-06",
+      "text": "修复 CI 常红：test_spawn_output_decode_auto_utf8_then_oem 不再硬编码 GBK 代码页"
+    },
+    {
+      "hash": "1cb0eae",
+      "date": "2026-10-06",
+      "text": "自动审批事件卡：ask 档自动放行在对话流出独立卡（D-30 补）"
+    },
+    {
+      "hash": "bb08d5d",
+      "date": "2026-10-06",
+      "text": "D-111 更新过程可见：进度状态机 + 顶栏常驻指示 + 看门狗回滚重启加固"
+    },
+    {
+      "hash": "0845680",
+      "date": "2026-10-06",
+      "text": "D-110 消除三处\"看着串行\"的墙钟黑洞：写集重叠归一化 + 诊断命令预算 + 并行组可视化"
+    },
+    {
+      "hash": "73ad3e7",
+      "date": "2026-10-06",
+      "text": "D-109 追问/停机/打回/驳回四处输入支持截图：统一复用 clarify 图片通道"
     }
   ]
 }
