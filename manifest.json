@@ -1,13 +1,53 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "app_zip": {
-    "name": "app-0.1.6.zip",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/Gexomaikoine/AgentFlow/main/app-0.1.6.zip",
-    "sha256": "224bcec44c6d1e5a23d148f3a6063ca1ece75282278cbfceb9ca9b6a16641d1e"
+    "name": "app-0.1.7.zip",
+    "url": "https://ghproxy.net/https://github.com/Gexomaikoine/AgentFlow/releases/download/v0.1.7/app-0.1.7.zip",
+    "sha256": "ad23972e49d21441cb9e7d0a5ddb8b40b9e08d0e07f7fd8749282a7712a05bc4"
   },
   "requires_runtime": "3.13.5-ce567cfe",
-  "commit": "6a87f09",
+  "commit": "b1ba162",
   "notes": [
+    {
+      "hash": "b1ba162",
+      "date": "2026-10-09",
+      "text": "角色清单收口为 SYSTEM_ROLES 唯一权威：残留角色键在 load/保存时剔除（D-115）"
+    },
+    {
+      "hash": "e6aece5",
+      "date": "2026-10-09",
+      "text": "发版安装包去掉手动勾选项（CI 恒编 Setup.exe）+ 版本升 0.1.7"
+    },
+    {
+      "hash": "12613e5",
+      "date": "2026-10-09",
+      "text": "图标改圆角 + 四角透明（macOS 系观感）"
+    },
+    {
+      "hash": "18ef742",
+      "date": "2026-10-09",
+      "text": "图标四角填成底色（去掉白角）"
+    },
+    {
+      "hash": "9a8f1de",
+      "date": "2026-10-09",
+      "text": "产品图标：生成并接入安装包与网页（研发版 + 正式版）"
+    },
+    {
+      "hash": "050bbc9",
+      "date": "2026-10-09",
+      "text": "安装包加桌面快捷方式（用户实报装完找不到启动图标）"
+    },
+    {
+      "hash": "4c6839d",
+      "date": "2026-10-09",
+      "text": "发布形态收口：资产进产物仓 Release，仓根只留 manifest/README（D-113）"
+    },
+    {
+      "hash": "e2240a9",
+      "date": "2026-10-09",
+      "text": "外部推送识别与确认（D-112）+ 任务状态配色统一"
+    },
     {
       "hash": "6a87f09",
       "date": "2026-10-08",
@@ -32,41 +72,6 @@
       "hash": "0d73d8e",
       "date": "2026-10-07",
       "text": "修复发版在 CI 崩：release.py 标准输出强制 UTF-8（en-US runner 是 cp1252）"
-    },
-    {
-      "hash": "7e8788a",
-      "date": "2026-10-07",
-      "text": "发版流程按业界做法收口：推 tag 自动发版 + tag/version 一致性校验"
-    },
-    {
-      "hash": "43e8688",
-      "date": "2026-10-07",
-      "text": "发版 0.1.6：版本号同步升位（含 D-109 截图输入 + D-110 串行黑洞三处 + D-111 更新过程可见 + 自动审批事件卡 + CI 常红修复）"
-    },
-    {
-      "hash": "9ddce30",
-      "date": "2026-10-06",
-      "text": "修复 CI 常红：test_spawn_output_decode_auto_utf8_then_oem 不再硬编码 GBK 代码页"
-    },
-    {
-      "hash": "1cb0eae",
-      "date": "2026-10-06",
-      "text": "自动审批事件卡：ask 档自动放行在对话流出独立卡（D-30 补）"
-    },
-    {
-      "hash": "bb08d5d",
-      "date": "2026-10-06",
-      "text": "D-111 更新过程可见：进度状态机 + 顶栏常驻指示 + 看门狗回滚重启加固"
-    },
-    {
-      "hash": "0845680",
-      "date": "2026-10-06",
-      "text": "D-110 消除三处\"看着串行\"的墙钟黑洞：写集重叠归一化 + 诊断命令预算 + 并行组可视化"
-    },
-    {
-      "hash": "73ad3e7",
-      "date": "2026-10-06",
-      "text": "D-109 追问/停机/打回/驳回四处输入支持截图：统一复用 clarify 图片通道"
     }
   ]
 }
