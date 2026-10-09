@@ -1,77 +1,37 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "app_zip": {
-    "name": "app-0.1.7.zip",
-    "url": "https://ghproxy.net/https://github.com/Gexomaikoine/AgentFlow/releases/download/v0.1.7/app-0.1.7.zip",
-    "sha256": "ad23972e49d21441cb9e7d0a5ddb8b40b9e08d0e07f7fd8749282a7712a05bc4"
+    "name": "app-0.1.8.zip",
+    "url": "https://ghproxy.net/https://github.com/Gexomaikoine/AgentFlow/releases/download/v0.1.8/app-0.1.8.zip",
+    "sha256": "9f0275bf76ad39734f69507317f5658b3cb15c7c4bd7a7504258b7249aac8dc0"
   },
   "requires_runtime": "3.13.5-ce567cfe",
-  "commit": "b1ba162",
+  "commit": "40a094e",
   "notes": [
     {
-      "hash": "b1ba162",
+      "hash": "40a094e",
+      "date": "2026-10-10",
+      "text": "发版 0.1.8：版本号同步升位（含 D-118）"
+    },
+    {
+      "hash": "925afae",
+      "date": "2026-10-10",
+      "text": "决策记录 D-118：thinking 模型 reasoning_content 回传 + 对话窗收成只读 Lead"
+    },
+    {
+      "hash": "f3a5e4e",
       "date": "2026-10-09",
-      "text": "角色清单收口为 SYSTEM_ROLES 唯一权威：残留角色键在 load/保存时剔除（D-115）"
+      "text": "修复 thinking 模型 reasoning_content 未回传 + 对话窗改为只读 Lead"
     },
     {
-      "hash": "e6aece5",
+      "hash": "566129e",
       "date": "2026-10-09",
-      "text": "发版安装包去掉手动勾选项（CI 恒编 Setup.exe）+ 版本升 0.1.7"
+      "text": "CD 页签置灰改为「真有回流事件」探测制：已推送也会灰（D-117）"
     },
     {
-      "hash": "12613e5",
+      "hash": "8858de2",
       "date": "2026-10-09",
-      "text": "图标改圆角 + 四角透明（macOS 系观感）"
-    },
-    {
-      "hash": "18ef742",
-      "date": "2026-10-09",
-      "text": "图标四角填成底色（去掉白角）"
-    },
-    {
-      "hash": "9a8f1de",
-      "date": "2026-10-09",
-      "text": "产品图标：生成并接入安装包与网页（研发版 + 正式版）"
-    },
-    {
-      "hash": "050bbc9",
-      "date": "2026-10-09",
-      "text": "安装包加桌面快捷方式（用户实报装完找不到启动图标）"
-    },
-    {
-      "hash": "4c6839d",
-      "date": "2026-10-09",
-      "text": "发布形态收口：资产进产物仓 Release，仓根只留 manifest/README（D-113）"
-    },
-    {
-      "hash": "e2240a9",
-      "date": "2026-10-09",
-      "text": "外部推送识别与确认（D-112）+ 任务状态配色统一"
-    },
-    {
-      "hash": "6a87f09",
-      "date": "2026-10-08",
-      "text": "发版开关收口：安装包默认编译、去掉\"跳过重建\"、新增 --build-installer"
-    },
-    {
-      "hash": "8955bd3",
-      "date": "2026-10-08",
-      "text": "安装包改为按需编译：只在 --with-installer 时编译"
-    },
-    {
-      "hash": "bc7eac6",
-      "date": "2026-10-08",
-      "text": "修复 CI 发版卡在安装包：.iss 版本号不再硬编码（改由 release.py 传 /DAppVersion）"
-    },
-    {
-      "hash": "637e60c",
-      "date": "2026-10-08",
-      "text": "发版提速：缓存内嵌运行时（key=runtime_id），命中即自动 --skip-runtime"
-    },
-    {
-      "hash": "0d73d8e",
-      "date": "2026-10-07",
-      "text": "修复发版在 CI 崩：release.py 标准输出强制 UTF-8（en-US runner 是 cp1252）"
+      "text": "发版凭据前置校验：token 非 ASCII 响亮错 + tag 查询仅 404 算未建（D-116）"
     }
   ]
 }
